@@ -51,6 +51,17 @@ Os alunos devem usar a IA para gerar um script simples em Python que simula o en
 * `/scripts`: Exemplo de código Python para simulação de pacotes.
 * `/images`: Diagramas gerados por IA.
 
+### 💻 Demonstração Prática: Script de Encapsulamento
+Para facilitar a visualização do Modelo OSI, incluí um script Python (`/scripts/simulador_encapsulamento.py`) que utiliza a biblioteca **Scapy**. 
+
+**O que o script faz:**
+1. Cria uma carga útil (Payload) na Camada de Aplicação.
+2. Encapsula os dados com um cabeçalho **TCP** (Transporte).
+3. Adiciona o endereçamento lógico com um cabeçalho **IP** (Rede).
+4. Finaliza com o endereçamento físico no quadro **Ethernet** (Enlace).
+
+Isso permite que o aluno veja exatamente como os headers são empilhados antes de serem enviados para o meio físico.
+
 ---
 
 **Professor:** Bruno Camargo Ribeiro  
